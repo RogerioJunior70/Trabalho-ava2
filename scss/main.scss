@@ -1,0 +1,15 @@
+/* Main SCSS File */
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/navbar';
+@import 'components/footer';
+
+@import 'layout/grid';
+@import 'layout/header';
+
+@import 'pages/home';

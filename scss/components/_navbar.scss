@@ -1,0 +1,26 @@
+/* Navbar Component */
+.navbar {
+    background-color: $primary-color;
+    padding: $base-spacing;
+  
+    .navbar__brand {
+      font-size: 1.5em;
+      color: #fff;
+    }
+  
+    .navbar__menu {
+      list-style: none;
+      display: flex;
+  
+      .navbar__item {
+        margin-left: $base-spacing;
+        color: #fff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  

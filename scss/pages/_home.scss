@@ -1,0 +1,17 @@
+/* Home Page Styles */
+.home {
+    .home__banner {
+      @include flex-center;
+      background: url('../images/banner.jpg') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      color: #fff;
+      font-size: 2em;
+    }
+  
+    .home__content {
+      padding: $base-spacing;
+      text-align: center;
+    }
+  }
+  
